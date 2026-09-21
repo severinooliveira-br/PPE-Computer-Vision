@@ -1,0 +1,29 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Modelos treinados
+*.pt
+*.pth
+*.onnx
+
+# Vídeos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Resultados temporários
+results/*
+!results/.gitkeep
+
+# Dados do dataset
+dataset/
+PPE_dataset/
+PPE_dataset_clean/
+PPE_dataset_detection/
+
+# Ambiente
+.env
+venv/
+.venv/
